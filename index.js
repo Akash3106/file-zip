@@ -71,5 +71,5 @@ app.post('/compressfiles', compressfilesupload.array('file', 8), (req, res) => {
 
 
 app.listen(process.env.PORT || 5000, () => {
-  console.log(`App is listening on Port ${PORT}`);
+  console.log(`App is listening on Port`);
 });
